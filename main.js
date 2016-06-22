@@ -3,9 +3,7 @@ function add(){
   var secondNumber = document.querySelector('.input2').value;
   var sum = Number(firstNumber) + Number(secondNumber);
   console.log(sum);
+  document.querySelector('output').innerHTML=sum;
 }
 
 document.querySelector('button').onclick=add;
-
-
-// onclick add();
