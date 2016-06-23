@@ -1,35 +1,51 @@
+body {
+  background-image: url("http://st2.depositphotos.com/2134479/5530/v/950/depositphotos_55300391-Mathematical-vector-seamless-pattern-with.jpg");
+  margin: 0; }
+
 header {
   height: 20rem;
-  width: 100%;
-  background-image: url("https://unsplash.com/photos/5mZ_M06Fc9g"); }
+  width: 100%; }
+
+img {
+  width: 23rem;
+  height: 20rem;
+  padding: 0 32rem;
+  margin-top: .5rem; }
 
 .button {
   display: block;
-  margin: 0 auto; }
+  margin: 0 auto;
+  width: 10rem; }
 
 .input1 {
   width: 18rem;
-  border: 1rem solid red; }
+  height: 4rem;
+  border: 1rem solid #828282; }
+  .input1 .value {
+    font-size: 4rem; }
 
 .input2 {
   width: 18rem;
-  border: 1rem solid blue; }
-
-.calculator {
-  width: 50%;
-  margin: 0 23rem; }
-
-.answerBox {
-  width: 50%;
-  border: 1rem solid purple;
-  margin: 0 auto; }
+  height: 4rem;
+  border: 1rem solid #828282; }
 
 .buttonBox {
-  display: block;
-  width: 7%;
-  margin: 0 auto; }
+  width: 10rem;
+  margin: 0 auto;
+  padding: 1rem;
+  padding-right: 4rem; }
 
-button {
-  clear: left; }
+.calculator {
+  width: 41rem;
+  margin: 0 23rem;
+  padding-top: 1rem; }
+
+.answerBox {
+  width: 23rem;
+  height: 4rem;
+  border: 1rem solid #2c4762;
+  margin: 0 auto;
+  background-color: white;
+  margin-right: 33.5rem; }
 
 /*# sourceMappingURL=main.css.map */
